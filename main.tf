@@ -5,7 +5,7 @@ module "make_a_vm" {
   version = "1.0.0"
 
   os = "centos"
-  size = "t2.large"
+  size = "t2.small"
   tag_name = "andys-test-vm"
   tag_owner = "ajames"
   tag_ttl = 72
